@@ -24,11 +24,6 @@
                 stack
                 watchexec
             ];
-
-            shellHook = ''
-                echo "Activated hledger dev environment"
-                exec zsh
-                '';
         };
     };
 }
